@@ -1,0 +1,32 @@
+\begin{table}[!htbp] \centering
+\begin{tabular}{@{\extracolsep{5pt}}lccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+& \multicolumn{3}{c}{\textit{Dependent variable: ln_aqi_score}} \
+\cr \cline{2-4}
+\\[-1.8ex] & \multicolumn{1}{c}{ln(AQI) on ln(Population Density), Green Coverage Rate, and Industrial Land Ratio} & \multicolumn{1}{c}{ln(AQI) on only ln(Population Density)} & \multicolumn{1}{c}{ln(AQI) on ln(Population Density), if Green Coverage Rate is high, and if Industrial Land Ratio is high}  \\
+\\[-1.8ex] & (1) & (2) & (3) \\
+\hline \\[-1.8ex]
+ Intercept & 4.449$^{***}$ & 4.518$^{***}$ & 4.505$^{***}$ \\
+& (0.081) & (0.039) & (0.056) \\
+ ln(Population Density) & 0.090$^{***}$ & 0.083$^{***}$ & 0.087$^{***}$ \\
+& (0.017) & (0.013) & (0.016) \\
+ Green Coverage Rate & 0.570$^{**}$ & & \\
+& (0.265) & & \\
+ Industrial Land Ratio & 0.086$^{}$ & & \\
+& (0.211) & & \\
+ 1 when Green Coverage Rate is High & & & 0.044$^{}$ \\
+& & & (0.031) \\
+ 1 when Industrial Land Ratio is High & & & 0.008$^{}$ \\
+& & & (0.030) \\
+\hline \\[-1.8ex]
+ Observations & 313 & 313 & 313 \\
+ $R^2$ & 0.143 & 0.125 & 0.131 \\
+ Adjusted $R^2$ & 0.135 & 0.122 & 0.123 \\
+ Residual Std. Error & 0.230 (df=309) & 0.232 (df=311) & 0.232 (df=309) \\
+ F Statistic & 10.188$^{***}$ (df=3; 309) & 44.362$^{***}$ (df=1; 311) & 10.398$^{***}$ (df=3; 309) \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:} & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}
+\end{table}
