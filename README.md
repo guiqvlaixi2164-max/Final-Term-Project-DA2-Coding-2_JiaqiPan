@@ -9,7 +9,7 @@ Final-Term-Project/
 ├── code/       # A jupyter notebook, which includes all data cleaning, analysis, and regression pipeline
 ├── data/       # all datasets used in this project
 ├── graphs/     # Generated plots
-├── tables_latex/       # Regression tables in LaTeX format
+├── tables/       # Regression tables in LaTeX format
 ├── report/     # Final report (Markdown & PDF)
 ```
 
