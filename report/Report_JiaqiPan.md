@@ -1,10 +1,4 @@
----
-lang: en
-mainfont: Times New Roman
-sansfont: Arial
-monofont: Consolas
-geometry: margin=1in
----
+
 
 ### **Term Project Data Analysis 2 and Assignment 2 Coding 2**
 
@@ -21,7 +15,8 @@ Therefore, this project studies the relationship between air pollution levels (m
 
 #### **2. Data**
 
-- **AQI-dataset_367_Chinese_cities_2014-2024**: The annual average AQI values for 367 cities across China. The Air Quality Index (AQI) is a comprehensive indicator used to assess air pollution levels, based on the concentrations of six major pollutants: PM2.5, PM10, SO₂, NO₂, O₃, and CO. 
+- **AQI-dataset_367_Chinese_cities_2014-2024**: The annual average AQI values for 367 cities across China. The Air Quality Index (AQI) is a comprehensive indicator used to assess air pollution levels, based on the concentrations of six major pollutants: PM2.5, PM10, SO₂, NO₂, O₃, and CO.
+  
 Data Source: https://www.scidb.cn/en/detail?dataSetId=24ca93d08fdf4b9fa12842733caffe6d
 
 - **Urban-area_square-kilometers**: The urban area data of cities across China.
@@ -45,6 +40,7 @@ By merging all datasets, we constructed a cross-sectional dataset including 313 
 **(a) Model Specification and Choice**
 
 We employ Ordinary Least Squares (OLS) regression to estimate the relationship between air pollution and three urban variables. We started with univariate regressions to examine the individual relationships between Air Quality Index (AQI) and each of the three variables (Table 1 and Graph 1-6 in Appendix). The univariate regression models are:
+
 
 $$
 \text{Model 0:  }  AQI^{E}  = β_0 + β_1 PopulationDensity
